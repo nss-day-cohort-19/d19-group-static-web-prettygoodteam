@@ -1,0 +1,26 @@
+
+
+#mainSection {
+	border-style: bold;
+	border-color: black;
+}
+
+.contentSection {
+	background: rgba(255, 255, 255, .8);
+	width: 79%;
+	margin: 2.5% 9%;
+	padding: 1%;
+	border: 2px solid lightgrey;
+}
+
+.contentSection h3 {
+	text-align: center;
+}
+
+.contentSection h4 {
+	margin-bottom: 0;
+}
+
+.contentSection p {
+	margin-bottom: 2%;
+}
