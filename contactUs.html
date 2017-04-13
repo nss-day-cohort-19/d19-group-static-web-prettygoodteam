@@ -3,66 +3,84 @@
 <head>
 <style>
 h1 {
-    color: orange;
+    color: black;
 }
+
 </style>
-<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
 <title>Contact Us</title>
 </head>
 <body>
 
-<img src="dogs.jpg" />
-<div id="map">My map will go here</div>
-<h1>My First Google Map</h1>
+<!-- <img class="contactus" src="dogs.jpg" >
+ --><div class="my-div" style="color:#000000">
+  <center>
+  
+  <table cellpadding="25" border="0">
 
-<div style="color:#0000FF">
-  <h2>Doggy Date</h2>
-  <p>Address: 500 Interstate Blvd S #300, Nashville, TN 37210</p>
-  <p>Phone:(615) 838-8188</p>
-  <p> Email:doggydates@gmail.com
-  	<p>Hours:</p> 
+  <tr><td>
+  <table border="0">
+  <tr><td> <h1>Doggy Date</h1></td></tr>
+  <tr><td>Address:</td><td>500 Interstate Blvd S #300, Nashville, TN 37210 <a href="https://www.google.com/maps/place/500+Interstate+Blvd+S+%23300,+Nashville,+TN+37210/@36.132796,-86.7587567,17z/data=!3m1!4b1!4m5!3m4!1s0x88646609ff279a6f:0x4f09d71163a8e804!8m2!3d36.132796!4d-86.756568" target="_blank" style="color:red">(map)</a></td></tr>
+  <tr><td>Phone:</td><td><a href="tel:(615)838-8188">(615) 838-8188</a></td></tr>
+   <tr><td>Email:</td><td><a href="mailto:doggydates@gmail.com">doggydates@gmail.com</a></td></tr></div>
 
-  <table>
-  	<tr><td>Monday:</td>	 <td>9AM-4PM</td></tr>
-   <tr><td>Tuesday:</td>	 		  <td>9AM-4PM</td></tr>
-  <tr><td>Wednesday:</td>	 <td>9AM-4PM</td></tr>
-  <tr><td>Thursday:	</td> <td>9AM-4PM</td></tr>
-  <tr><td>Friday:</td>     <td>9AM-4PM</td></tr>
-
-
-  	
-  </table>
-  <p>Saturday:	 CLOSED</p>
-  <p>Sunday:	 CLOSED</p>
-
-  CONTACT US:<br>
-
+  	<tr><td><strong><br>Store Hours</td><td></td></tr> 
 
  
-
-
-
+  	<tr><td>Monday:</td>	 <td>9AM-11PM</td></tr>
+   <tr><td>Tuesday:</td>	 <td>9AM-4PM</td></tr>
+  <tr><td>Wednesday:</td>	 <td>9AM-11PM</td></tr>
+  <tr><td>Thursday:	</td>    <td>9AM-11PM</td></tr>
+  <tr><td>Friday:</td>       <td>9AM-11PM</td></tr>
+  <tr><td>Saturday:</td><td>Open all day</td></tr>
+  <tr><td>Sunday:</td><td>Open all day</td></tr>
+ </table></td>
 </div>
+<td><br>
+<br>
+<table border="0" align="right">
+ <th>CONTACT US:</strong></th>
 
-
-
-
-<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data" onSubmit="alert('Thanks for Contacting us');">
+<tr><td>
 	<div class="row">
 		<label for="name">Your name:</label><br />
-		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+		<input id="name" class="input" name="name" type="text" value="" size="58" /><br />
 	</div>
+</td></tr>
+<tr><td>
 	<div class="row">
 		<label for="email">Your email:</label><br />
-		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+		<input id="email" class="input" name="email" type="text" value="" size="58" /><br />
 	</div>
+</td></tr>
+<tr><td>	
 	<div class="row">
 		<label for="message">Your message:</label><br />
-		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+		<textarea id="message" class="input" name="message" rows="14" cols="60"></textarea><br />
 	</div>
+</td></tr>
+<tr><td>
 	<input id="submit_button" type="submit" value="Send email" />
+</td></tr>
 </form>
+</table>
+</td></tr></table>
+</center>
 
+		<nav>
+			<ul>
+     			<li><a href="index.html">Home</a></li>
+	            <li><a href="aboutus.html">About Us</a></li>
+	            <li><a href="#">Puppies</a></li>
+	            <li><a href="faqs.html">FAQs</a></li>
+	            <li><a href="contactUs.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		<footer>
+			&copy 2017 Doggy Dates
+		</footer>
 </body>
 </html>
