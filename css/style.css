@@ -60,6 +60,7 @@ footer {
 	text-align: center;
 }
 
+
 /****************************
 FAQs Page Styling
 ****************************/
@@ -90,5 +91,18 @@ FAQs Page Styling
 	margin: 0 9% 10.5%;
 	padding: 1%;
 	border: 2px solid lightgrey;
+}
+
+/* Styles for About Us */
+
+.about,
+.mission,
+.signup {
+	padding: 10px;
+	margin: 0;
+}
+
+.aboutuslinks {
+	text-decoration: none;
 }
 
