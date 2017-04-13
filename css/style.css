@@ -8,7 +8,7 @@ body {
 	background:; rgba(255, 255, 255, .8);
 	background-image: url("../images/puppybackground.jpg");
 	background-repeat: no-repeat;
-	background-size: 97em 46.15em;
+	background-size: 99em 48em;
 	background-attachment: fixed;
 	margin: 0 0;
 }
@@ -158,9 +158,12 @@ Products Styling
 	border: 2px solid lightgrey;
 	float: left;
 	width: 28%;
+	height: 30em;
 	margin: 2% 1.5% 11%;
 }
 #puppies img {
-	width:100%;
+	position:absolute;
+	clip: rect(0em, 23em, 23em, 0em);*/
+	width: 100%;
 	height: auto;
 }
