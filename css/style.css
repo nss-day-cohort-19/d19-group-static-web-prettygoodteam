@@ -71,6 +71,14 @@ footer {
 FAQs Page Styling
 ****************************/
 
+#faqSection {
+	background: rgba(255, 255, 255, .8);
+	width: 79%;
+	margin: 0 9% 10.5%;
+	padding: 1%;
+	border: 2px solid lightgrey;
+}
+
 .contentSection {
 	background: rgba(255, 255, 255, .8);
 	width: 79%;
@@ -152,7 +160,26 @@ About Us Page Styling
 /***************
 Products Styling
 ***************/
+
+#puppies {
+	width: 90%;
+	margin: 2.5% 4.5% 10%;
+	padding: 0 3%;
+}
+
 #puppies div {
+	margin: 0 2.5% 10.5% ;
+	display: inline-block;
+	background: rgba(255, 255, 255, .7);
+	margin: 2.5% 2% 4%;
+	padding: 1%;
+	border: 2px solid lightgrey;
+	float: center;
+	width: 24%;
+	height: auto;
+
+}
+#puppies img {
 	background: rgba(255, 255, 255, .8);
 	padding: 1%;
 	border: 2px solid lightgrey;
@@ -160,10 +187,11 @@ Products Styling
 	width: 28%;
 	height: 30em;
 	margin: 2% 1.5% 11%;
+  width: 100%;
+	height: auto;
 }
+/*
 #puppies img {
 	position:absolute;
 	clip: rect(0em, 23em, 23em, 0em);*/
-	width: 100%;
-	height: auto;
-}
+
