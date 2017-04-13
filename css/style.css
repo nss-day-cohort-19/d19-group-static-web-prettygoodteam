@@ -56,3 +56,17 @@ footer {
 	bottom: 0;
 	text-align: center;
 }
+
+/* Styles for About Us */
+
+.about,
+.mission,
+.signup {
+	padding: 10px;
+	margin: 0;
+}
+
+.aboutuslinks {
+	text-decoration: none;
+}
+
