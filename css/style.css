@@ -112,17 +112,40 @@ img.contactus{
 	border: 2px solid lightgrey;
 }
 
-/* Styles for About Us */
-
-.about,
-.mission,
-.signup {
-	padding: 10px;
-	margin: 0;
-}
+/****************************
+About Us Page Styling
+****************************/
 
 .aboutuslinks {
 	text-decoration: none;
+}
+
+.aboutussection {
+	background: rgba(255, 255, 255, .8);
+	width: 79%;
+	margin: 2.75% 9%;
+	padding: 1%;
+	border: 2px solid lightgrey;
+}
+
+.aboutussection h3 {
+	text-align: center;
+}
+
+.aboutussection h4 {
+	margin-bottom: 0;
+}
+
+.aboutussection p {
+	margin-bottom: 2%;
+}
+
+#bottomsection {
+	background: rgba(255, 255, 255, .8);
+	width: 79%;
+	margin: 0 9% 10.5%;
+	padding: 1%;
+	border: 2px solid lightgrey;
 }
 
 /***************
