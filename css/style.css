@@ -71,6 +71,14 @@ footer {
 FAQs Page Styling
 ****************************/
 
+#faqSection {
+	background: rgba(255, 255, 255, .8);
+	width: 79%;
+	margin: 0 9% 10.5%;
+	padding: 1%;
+	border: 2px solid lightgrey;
+}
+
 .contentSection {
 	background: rgba(255, 255, 255, .8);
 	width: 79%;
@@ -88,14 +96,14 @@ Contact Us
 
 
 .my-div{
-	font-family: Tahoma; 
+	font-family: Tahoma;
 	font-weight: bold;
 }
 img.contactus{
 	width: 20%;
 	height: 18%;
 }
-=======
+
 .contact-Section h4 {
 	margin-bottom: 0;
 }
@@ -151,17 +159,27 @@ About Us Page Styling
 /***************
 Products Styling
 ***************/
+
+#puppies {
+	width: 90%;
+	margin: 2.5% 4.5% 10%;
+	padding: 0 3%;
+}
+
 #puppies div {
-	background: rgba(255, 255, 255, .8);
-	width: 79%;
-	margin: 2.5% 9%;
+	margin: 0 2.5% 10.5% ;
+	position: sticky;
+	display: inline-block;
+	background: rgba(255, 255, 255, .7);
+	margin: 2.5% 2% 4%;
 	padding: 1%;
 	border: 2px solid lightgrey;
-	float: left;
-	width: 28%;
-	margin: 0 0 11%;
+	float: center;
+	width: 24%;
+	height: auto;
+
 }
 #puppies img {
-	width:100%;
+	width: 100%;
 	height: auto;
 }
