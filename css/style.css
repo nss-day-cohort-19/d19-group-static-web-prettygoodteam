@@ -1,4 +1,6 @@
-
+/****************
+Background & Body
+****************/
 
 body {
 	width: 100%;
@@ -17,6 +19,10 @@ body {
 	left: 2em;
 	font-size: 3em;
 }
+
+/*************
+Navigation Bar
+*************/
 nav {
 	position: fixed;
 	bottom: 2.5%;
@@ -119,4 +125,20 @@ img.contactus{
 	text-decoration: none;
 }
 
-
+/***************
+Products Styling
+***************/
+#puppies div {
+	background: rgba(255, 255, 255, .8);
+	width: 79%;
+	margin: 2.5% 9%;
+	padding: 1%;
+	border: 2px solid lightgrey;
+	float: left;
+	width: 28%;
+	margin: 0 0 11%;
+}
+#puppies img {
+	width:100%;
+	height: auto;
+}
